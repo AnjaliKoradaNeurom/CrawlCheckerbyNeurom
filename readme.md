@@ -3,7 +3,6 @@ cd backend
 python -m venv venv
 venv\Scripts\activate   # (Windows)
 pip install -r requirements.txt
-pip install openai==0.28
 python -m uvicorn main:app --reload
 
 
